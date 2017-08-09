@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Francois+One|Sanchez');
+
+html{
+  background: url(../assets/dark_wood.png);
+}
+body{
+  font-family: 'Sanchez',sans-serif;
+  background: none;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Acme',cursive;
+  color: white;
+}
+
+#logo{
+  height: 75px;
+  margin-bottom: 5px;
+  display: inline;
+}
+
+#navToggle{
+  margin-top: 23px;
+}
+
+a.navbar-brand{
+  font-family: "Sanchez";
+  font-size: 30px;
+  font-weight: bold;
+}
