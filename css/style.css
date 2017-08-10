@@ -27,3 +27,18 @@ a.navbar-brand{
   font-size: 30px;
   font-weight: bold;
 }
+@media (max-width: 340px){
+  a.navbar-brand{
+    font-family: "Sanchez";
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #logo{
+    height: 50px;
+    margin-bottom: 5px;
+    display: inline;
+  }
+  #navToggle{
+    margin-top: 10px;
+  }
+}
