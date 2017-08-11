@@ -12,6 +12,17 @@ h1, h2, h3, h4, h5, h6{
   color: white;
 }
 
+hr{
+  background-color: grey;
+  width: 50%;
+}
+
+i{
+  margin-left: .25em;
+  margin-right: .25em;
+  color: #4f98ff;
+}
+
 #logo{
   height: 75px;
   margin-bottom: 5px;
@@ -22,11 +33,26 @@ h1, h2, h3, h4, h5, h6{
   margin-top: 23px;
 }
 
+#mainWrap{
+  margin-top: 2em;
+  border-radius: 5px;
+  /* For main area background     background: #292b2c;*/
+}
+
+#mainImg{
+  margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 a.navbar-brand{
   font-family: "Sanchez";
   font-size: 30px;
   font-weight: bold;
 }
+
 @media (max-width: 340px){
   a.navbar-brand{
     font-family: "Sanchez";
@@ -40,5 +66,33 @@ a.navbar-brand{
   }
   #navToggle{
     margin-top: 10px;
+  }
+}
+
+.row p{
+  color: white;
+}
+
+.intro-text .name {
+  display: block;
+  font-family: "Sanchez", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.intro-text .skills {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .intro-text .name {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5em;
+  }
+  .intro-text .skills {
+    font-size: 1.75em;
   }
 }
