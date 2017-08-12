@@ -2,6 +2,7 @@
 
 html{
   background: url(../assets/dark_wood.png);
+  height: 100%;
 }
 body{
   font-family: 'Sanchez',sans-serif;
@@ -40,7 +41,7 @@ i{
 }
 
 #mainImg{
-  margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     display: block;
     margin-top: 2em;
@@ -71,7 +72,7 @@ a.navbar-brand{
 
 @media (max-width: 485px){
   #mainImg{
-    height:12em;
+    height:11em;
   }
 }
 
