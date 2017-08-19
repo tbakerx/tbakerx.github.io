@@ -1,8 +1,7 @@
 # tbakerx.github.io
 
 <h1>Tim Baker Personal Portfolio Website</h1>
-<hr>
-<img src="assets/logo.png" alt="Logo" style="width: 100px; height:100px"/>
+<img src="assets/logo.png" alt="Logo" style="width: 50px; height:50px"/>
 
 
 This is a repository for my personal website
