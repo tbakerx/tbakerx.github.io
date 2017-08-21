@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Acme|Francois+One|Sanchez');
 
 html{
-  background: url(../assets/dark_wood.png);
+  background:url(../assets/dark_wood.png);
   height: 100%;
 }
 body{
@@ -24,19 +24,26 @@ i{
   color: #4f98ff;
 }
 
+.heading{
+font-family: 'Sanchez',serif;
+}
+
+.bg-inverse{
+  background-color: rgba(41,43,44,0.82)!important;
+  height: 5em;
+}
+
 #logo{
-  height: 75px;
+  height: 60px;
   margin-bottom: 5px;
   display: inline;
 }
 
 #navToggle{
-  margin-top: 23px;
+  margin-top: 15px;
 }
 
 #mainWrap{
-  margin-top: 2em;
-  border-radius: 5px;
   /* For main area background     background: #292b2c;*/
 }
 
@@ -54,7 +61,7 @@ a.navbar-brand{
   font-weight: bold;
 }
 
-@media (max-width: 340px){
+@media (max-width: 375px){
   a.navbar-brand{
     font-family: "Sanchez";
     font-size: 20px;
@@ -74,6 +81,7 @@ a.navbar-brand{
   #mainImg{
     height:11em;
   }
+
 }
 
 .row p{
