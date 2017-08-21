@@ -30,7 +30,6 @@ font-family: 'Sanchez',serif;
 
 .bg-inverse{
   background-color: rgba(41,43,44,0.82)!important;
-  height: 5em;
 }
 
 #logo{
@@ -45,6 +44,9 @@ font-family: 'Sanchez',serif;
 
 #mainWrap{
   /* For main area background     background: #292b2c;*/
+}
+
+#aboutMe{
 }
 
 #mainImg{
