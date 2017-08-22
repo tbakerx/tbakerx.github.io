@@ -121,4 +121,7 @@ a.navbar-brand{
   .intro-text .skills {
     font-size: 1.75em;
   }
+.col-md-10{
+    max-width: 100% !important;
+  }
 }
