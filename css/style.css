@@ -24,6 +24,11 @@ i{
   color: #4f98ff;
 }
 
+p{
+  font-family: 'Sanchez',sans-serif;
+  font-size: 15pt;
+}
+
 .heading{
 font-family: 'Sanchez',serif;
 }
@@ -47,6 +52,10 @@ font-family: 'Sanchez',serif;
 }
 
 #aboutMe{
+    background-color: rgba(41,43,44,0.82);
+    margin-top: 2em;
+    padding-top: 1em;
+    border-radius: 5px;
 }
 
 #mainImg{
@@ -111,5 +120,8 @@ a.navbar-brand{
   }
   .intro-text .skills {
     font-size: 1.75em;
+  }
+.col-md-10{
+    max-width: 100% !important;
   }
 }
