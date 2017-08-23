@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Acme|Francois+One|Sanchez');
+@import url('https://fonts.googleapis.com/css?family=Sanchez|Roboto:700i');
 
 html{
   background:url(../assets/dark_wood.png);
@@ -9,7 +9,7 @@ body{
   background: none;
 }
 h1, h2, h3, h4, h5, h6{
-  font-family: 'Acme',cursive;
+  font-family: "Roboto",serif;
   color: white;
 }
 
@@ -18,23 +18,40 @@ hr{
   width: 50%;
 }
 
-i{
-  margin-left: .25em;
-  margin-right: .25em;
-  color: #4f98ff;
-}
-
 p{
   font-family: 'Sanchez',sans-serif;
-  font-size: 15pt;
+  font-size: 1.25rem;
 }
 
 .heading{
-font-family: 'Sanchez',serif;
+font-family: 'Roboto',serif;
 }
 
 .bg-inverse{
   background-color: rgba(41,43,44,0.82)!important;
+}
+
+a.navbar-brand{
+  font-family: "Sanchez";
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.row p{
+  color: white;
+}
+
+.intro-text .name {
+  display: block;
+  font-family: "Sanchez", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.intro-text .skills {
+  font-size: 1.75em;
+  font-weight: 300;
+  font-style: italic;
 }
 
 #logo{
@@ -47,8 +64,13 @@ font-family: 'Sanchez',serif;
   margin-top: 15px;
 }
 
+#fa{
+  margin-left: .25em;
+  margin-right: .25em;
+  color: #4f98ff;
+}
+
 #mainWrap{
-  /* For main area background     background: #292b2c;*/
 }
 
 #aboutMe{
@@ -66,10 +88,10 @@ font-family: 'Sanchez',serif;
     margin-bottom: 2em;
 }
 
-a.navbar-brand{
-  font-family: "Sanchez";
-  font-size: 30px;
-  font-weight: bold;
+#balance{
+  padding-top: .5em;
+  padding-bottom: .5em;
+  color:gold;
 }
 
 @media (max-width: 375px){
@@ -86,37 +108,31 @@ a.navbar-brand{
   #navToggle{
     margin-top: 10px;
   }
+  .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+  }
 }
 
 @media (max-width: 485px){
   #mainImg{
     height:11em;
   }
+  p{
+    font-family: 'Sanchez',sans-serif;
+    font-size: 1rem;
+  }
+  .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+  }
 
-}
-
-.row p{
-  color: white;
-}
-
-.intro-text .name {
-  display: block;
-  font-family: "Sanchez", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 2em;
-}
-
-.intro-text .skills {
-  font-size: 1.25em;
-  font-weight: 300;
 }
 
 @media (min-width: 768px) {
   .intro-text .name {
     margin-left: auto;
     margin-right: auto;
-    font-size: 2.5em;
   }
   .intro-text .skills {
     font-size: 1.75em;
